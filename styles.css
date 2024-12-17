@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+body{
+margin: 0%;
+  font-family: sans-serif;
+  background-color: aliceblue;
+}
+.header{
+  text-align: center;
+  background-color:#0a0a23 ;
+  color: #ffff;
+  padding: 20px;
+  border-bottom:4px solid #fdb347 ;
+}
+.board{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+
+}
+.board img{
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+.board::after{
+  content: "";
+  width: 350px;
+}
